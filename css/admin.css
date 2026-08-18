@@ -1,0 +1,213 @@
+/* OPRE NATURE — admin dashboard (functional, but keeps the brand palette) */
+
+.opre-admin-header {
+  background: var(--opre-deep-green);
+  color: #fff;
+  padding: var(--space-3) var(--space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+.opre-admin-header .opre-brand { display: flex; align-items: center; gap: 10px; }
+.opre-admin-header .opre-brand img { height: 34px; }
+.opre-admin-header h1 { font-family: var(--font-heading); font-size: 1.1rem; margin: 0; color: #fff; }
+.opre-admin-header .opre-status { font-size: 0.8rem; color: #d9ead9; }
+.opre-admin-header .opre-status.is-dirty { color: var(--opre-gold); font-weight: 700; }
+.opre-admin-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+
+.opre-admin-body {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  max-width: 1600px;
+  margin: 0 auto;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .opre-admin-body { grid-template-columns: 1fr; }
+}
+
+.opre-panel {
+  background: var(--opre-white);
+  border: 1px solid var(--opre-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+.opre-panel h2 {
+  font-family: var(--font-heading);
+  color: var(--opre-deep-green);
+  font-size: 1rem;
+  margin: 0 0 var(--space-2);
+}
+
+.opre-category-list { list-style: none; margin: 0; padding: 0; }
+.opre-category-list li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--opre-border);
+  font-size: 0.88rem;
+}
+.opre-category-list li input[type="text"] {
+  flex: 1;
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: 0.88rem;
+  padding: 4px;
+  border-radius: 4px;
+  font-family: var(--font-ui);
+}
+.opre-category-list li input[type="text"]:hover,
+.opre-category-list li input[type="text"]:focus { border-color: var(--opre-border); background: var(--opre-cream); }
+.opre-category-list .opre-count { color: var(--opre-grey); font-size: 0.78rem; white-space: nowrap; }
+.opre-icon-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 4px 6px;
+  border-radius: 4px;
+  line-height: 1;
+}
+.opre-icon-btn:hover { background: var(--opre-panel-green); }
+.opre-icon-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+.opre-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: var(--space-3);
+}
+.opre-toolbar input[type="search"],
+.opre-toolbar select {
+  padding: 8px 10px;
+  border: 1px solid var(--opre-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+}
+.opre-toolbar input[type="search"] { flex: 1 1 220px; }
+.opre-toolbar .opre-spacer { flex: 1; }
+
+.opre-table-scroll { overflow-x: auto; border: 1px solid var(--opre-border); border-radius: var(--radius-md); }
+table.opre-admin-table { width: 100%; border-collapse: collapse; min-width: 1100px; background: #fff; }
+table.opre-admin-table thead th {
+  background: var(--opre-panel-green);
+  color: var(--opre-deep-green);
+  text-align: left;
+  padding: 8px 10px;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid var(--opre-deep-green);
+}
+table.opre-admin-table tbody td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--opre-border);
+  vertical-align: middle;
+}
+table.opre-admin-table tbody tr.is-inactive { background: #faf7f0; opacity: 0.65; }
+table.opre-admin-table tr.opre-group-row td {
+  background: var(--opre-cream);
+  font-family: var(--font-heading);
+  color: var(--opre-deep-green);
+  font-weight: 700;
+  padding: 8px;
+}
+table.opre-admin-table input[type="text"],
+table.opre-admin-table input[type="number"],
+table.opre-admin-table select {
+  width: 100%;
+  min-width: 90px;
+  padding: 5px 6px;
+  border: 1px solid var(--opre-border);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-family: var(--font-ui);
+}
+table.opre-admin-table td.opre-col-name input { min-width: 170px; }
+table.opre-admin-table td.opre-col-actions { white-space: nowrap; }
+table.opre-admin-table td.opre-col-price input { width: 80px; min-width: 70px; }
+table.opre-admin-table td.opre-col-order { text-align: center; white-space: nowrap; }
+
+.opre-field-row { margin-bottom: var(--space-3); }
+.opre-field-row label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
+.opre-field-row input[type="text"],
+.opre-field-row input[type="number"],
+.opre-field-row input[type="url"],
+.opre-field-row select,
+.opre-field-row textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--opre-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+}
+.opre-field-row textarea { min-height: 70px; resize: vertical; }
+.opre-field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); }
+@media (max-width: 560px) { .opre-field-grid { grid-template-columns: 1fr; } }
+
+dialog.opre-dialog {
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 0;
+  width: min(560px, 92vw);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+dialog.opre-dialog::backdrop { background: rgba(20, 30, 20, 0.5); }
+.opre-dialog-body { padding: var(--space-4); }
+.opre-dialog-body h2 { font-family: var(--font-heading); color: var(--opre-deep-green); margin-top: 0; }
+.opre-dialog-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: var(--space-4); }
+
+.opre-toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--opre-deep-green);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  z-index: 100;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+.opre-toast.error { background: #8a2c22; }
+
+.opre-preview-frame {
+  width: 100%;
+  height: 70vh;
+  border: 1px solid var(--opre-border);
+  border-radius: var(--radius-md);
+  background: #fff;
+}
+
+.opre-url-status { font-size: 0.82rem; margin-top: 4px; }
+.opre-url-status.ok { color: var(--opre-mid-green); }
+.opre-url-status.warn { color: #8a3b32; }
+
+.opre-tabs { display: flex; gap: 4px; margin-bottom: var(--space-3); border-bottom: 1px solid var(--opre-border); }
+.opre-tabs button {
+  border: none;
+  background: transparent;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  color: var(--opre-grey);
+  border-bottom: 3px solid transparent;
+}
+.opre-tabs button.is-active { color: var(--opre-deep-green); border-bottom-color: var(--opre-deep-green); }
+.opre-tab-panel[hidden] { display: none; }

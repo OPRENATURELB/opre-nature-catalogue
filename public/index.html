@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>OPRE NATURE — Product Catalogue</title>
+<meta name="description" content="OPRE NATURE hand made natural Lebanese products — olive oil, honey, zaatar, olives, preserves and more. From our fields to your table." />
+<link rel="icon" href="assets/opre-logo-sm.png" />
+<link rel="stylesheet" href="../css/theme.css" />
+<link rel="stylesheet" href="../css/public.css" />
+</head>
+<body>
+<a class="opre-skip-link" href="#opre-main">Skip to catalogue</a>
+<div class="opre-topbar"><span class="opre-dot" aria-hidden="true"></span></div>
+
+<header class="opre-header">
+  <div class="opre-header-inner">
+    <img class="opre-logo" src="assets/opre-logo.png" alt="OPRE NATURE logo" />
+    <div class="opre-header-text">
+      <h1>OPRE NATURE</h1>
+      <p class="opre-tagline-brown">Hand Made Natural Products</p>
+      <p class="opre-tagline-green">From Our Fields to Your Table</p>
+      <p class="opre-updated-date" id="opre-updated-date"></p>
+    </div>
+  </div>
+  <form class="opre-search-bar" role="search" onsubmit="return false">
+    <label for="opre-search" class="visually-hidden">Search products</label>
+    <input type="search" id="opre-search" placeholder="Search products (e.g. zaatar, olive oil, honey)…" autocomplete="off" />
+  </form>
+</header>
+
+<nav class="opre-category-nav" aria-label="Product categories">
+  <div class="opre-category-nav-inner" id="opre-category-nav-inner"></div>
+</nav>
+
+<main class="opre-main" id="opre-main">
+  <section class="opre-about" aria-labelledby="opre-about-h">
+    <div class="opre-about-inner">
+      <h2 id="opre-about-h" class="opre-heading">From Our Fields to Your Table</h2>
+      <p class="opre-body-serif" id="opre-about-text"></p>
+    </div>
+    <div class="opre-feature-grid">
+      <div>
+        <h3>Locally cultivated</h3>
+        <p>Selected ingredients rooted in our region.</p>
+      </div>
+      <div>
+        <h3>Made with care</h3>
+        <p>Prepared with patience, care and passion.</p>
+      </div>
+      <div>
+        <h3>Authentic flavours</h3>
+        <p>Traditional Lebanese tastes for home and hospitality.</p>
+      </div>
+    </div>
+  </section>
+
+  <p class="opre-no-results" id="opre-no-results" hidden>No products match your search.</p>
+
+  <div id="opre-category-sections"></div>
+</main>
+
+<footer class="opre-footer">
+  <div class="opre-footer-inner">
+    <div class="opre-footer-contact">
+      <h2>Orders &amp; Enquiries</h2>
+      <p id="opre-contact-address"></p>
+      <p id="opre-contact-phone"></p>
+      <p><a id="opre-contact-email" href="#"></a></p>
+      <p><a id="opre-contact-website" href="#" target="_blank" rel="noopener"></a></p>
+      <p id="opre-contact-instagram"></p>
+      <p class="opre-footer-tag">Hand Made • Natural • Locally Cultivated</p>
+    </div>
+    <div>
+      <div class="opre-qr-box" id="opre-qr-box"></div>
+      <p class="opre-meta" id="opre-qr-warning" hidden>Public catalogue link not yet configured — set it in the admin dashboard to show a QR code here.</p>
+    </div>
+  </div>
+</footer>
+
+<a class="opre-whatsapp-fab" id="opre-whatsapp-fab" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">💬 Contact us on WhatsApp</a>
+
+<script src="../vendor/qrcode.js"></script>
+<script src="../js/catalogue-data.js"></script>
+<script src="../js/data-store.js"></script>
+<script src="../js/qr.js"></script>
+<script src="../js/public.js"></script>
+</body>
+</html>

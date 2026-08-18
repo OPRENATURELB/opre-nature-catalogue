@@ -1,0 +1,122 @@
+/* OPRE NATURE — A4 print / PDF layout
+   Each .a4-page is a real, measured page (see js/print.js) so tables never
+   split mid-row and every page gets a real, correct page number — CSS alone
+   can't guarantee that in Chrome's print engine, so content is pre-paginated. */
+
+body.opre-print-body {
+  background: #77776c;
+  margin: 0;
+  padding: 24px 0;
+}
+
+.opre-print-toolbar {
+  max-width: 210mm;
+  margin: 0 auto 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.opre-print-toolbar .opre-meta { color: #eee; }
+
+#pages-root { visibility: hidden; }
+#pages-root.is-ready { visibility: visible; }
+
+.a4-page {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto 18px;
+  background: var(--opre-cream);
+  position: relative;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+  overflow: hidden;
+  break-after: page;
+  page-break-after: always;
+}
+
+.a4-topbar { height: 6mm; background: var(--opre-deep-green); position: relative; }
+.a4-topbar .opre-dot { position: absolute; right: 12mm; top: 50%; transform: translateY(-50%); width: 3.2mm; height: 3.2mm; border-radius: 50%; background: var(--opre-gold); }
+
+.a4-content {
+  padding: 10mm 16mm 0;
+  height: 258mm;
+  overflow: visible;
+}
+
+.a4-footer {
+  position: absolute;
+  left: 16mm;
+  right: 16mm;
+  bottom: 8mm;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-ui);
+  font-size: 8.5pt;
+  color: var(--opre-grey);
+  border-top: none;
+}
+
+/* Cover page */
+.a4-cover { display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: 24mm; }
+.a4-cover img.opre-logo { width: 62mm; height: auto; margin-bottom: 10mm; background: #fff; border-radius: 3mm; padding: 4mm; }
+.a4-cover h1 { font-family: var(--font-heading); color: var(--opre-deep-green); font-size: 30pt; margin: 0 0 6mm; }
+.a4-cover .opre-tagline-brown { font-size: 15pt; margin: 0 0 4mm; }
+.a4-cover .opre-tagline-green { font-size: 13pt; margin: 0 0 10mm; }
+.a4-cover .opre-meta { font-size: 10pt; }
+.a4-cover .a4-cover-qr { margin-top: 14mm; }
+.a4-cover .a4-cover-qr svg { width: 30mm; height: 30mm; }
+.a4-cover .a4-updated { margin-top: 6mm; font-size: 9pt; color: var(--opre-grey); }
+
+/* About page */
+.a4-page h2.a4-heading { font-family: var(--font-heading); color: var(--opre-deep-green); font-size: 19pt; margin: 0 0 5mm; }
+.a4-about p { font-family: var(--font-body); text-align: center; line-height: 1.6; font-size: 11pt; margin: 0 0 5mm; white-space: pre-line; }
+.a4-feature-grid { display: grid; grid-template-columns: repeat(3,1fr); border: 1px solid var(--opre-mid-green); background: var(--opre-panel-green); border-radius: 2mm; margin-top: 8mm; }
+.a4-feature-grid > div { padding: 5mm 6mm; border-left: 1px solid var(--opre-mid-green); }
+.a4-feature-grid > div:first-child { border-left: none; }
+.a4-feature-grid h3 { font-family: var(--font-ui); font-size: 10.5pt; margin: 0 0 2mm; }
+.a4-feature-grid p { font-family: var(--font-ui); font-size: 9.5pt; text-align: left; margin: 0; }
+
+/* TOC page */
+.a4-toc-row { display: flex; align-items: center; gap: 6mm; padding: 4mm 2mm; border-bottom: 1px solid var(--opre-border); font-family: var(--font-ui); }
+.a4-toc-row .num { color: var(--opre-brown); font-weight: 700; width: 8mm; }
+.a4-toc-row .name { flex: 1; font-size: 11pt; }
+.a4-toc-row .count { color: var(--opre-grey); font-size: 10pt; }
+
+/* Category pages */
+.a4-cat-count { color: var(--opre-grey); font-family: var(--font-ui); font-size: 9.5pt; margin: -2mm 0 3mm; }
+table.a4-table { width: 100%; border-collapse: collapse; font-family: var(--font-ui); }
+table.a4-table thead { display: table-header-group; }
+table.a4-table thead th {
+  background: var(--opre-panel-green);
+  color: var(--opre-deep-green);
+  text-align: left;
+  padding: 2.2mm 3mm;
+  font-size: 9.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  border-bottom: 1.2pt solid var(--opre-deep-green);
+}
+table.a4-table thead th.price-col { text-align: right; }
+table.a4-table tbody tr { break-inside: avoid; page-break-inside: avoid; }
+table.a4-table tbody td { padding: 1.35mm 3mm; font-size: 10pt; border-bottom: 0.4pt solid var(--opre-border); }
+table.a4-table tbody tr:nth-child(odd) { background: #ffffff; }
+table.a4-table tbody tr:nth-child(even) { background: var(--opre-row-alt); }
+table.a4-table td.price-col { text-align: right; font-weight: 700; color: var(--opre-brown); white-space: nowrap; }
+.a4-pricing-notice { font-family: var(--font-ui); font-size: 8.5pt; color: var(--opre-grey); margin-top: 3mm; }
+
+/* Contact page */
+.a4-contact { display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: 14mm; }
+.a4-contact img.opre-logo { width: 46mm; margin-bottom: 8mm; background: #fff; border-radius: 3mm; padding: 3mm; }
+.a4-contact h2 { font-family: var(--font-heading); color: var(--opre-deep-green); font-size: 18pt; margin: 0 0 6mm; }
+.a4-contact p { font-family: var(--font-ui); font-size: 11pt; margin: 1.5mm 0; }
+.a4-contact .a4-tag { font-family: var(--font-body); color: var(--opre-mid-green); margin-top: 8mm; font-size: 12pt; }
+.a4-contact .a4-cover-qr { margin-top: 8mm; }
+.a4-contact .a4-cover-qr svg { width: 28mm; height: 28mm; }
+
+@media print {
+  body.opre-print-body { background: #fff; padding: 0; }
+  .opre-print-toolbar { display: none; }
+  .a4-page { box-shadow: none; margin: 0; }
+  @page { size: A4; margin: 0; }
+}
