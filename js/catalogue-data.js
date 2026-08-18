@@ -325,7 +325,7 @@
   const ORIGINAL_PRODUCTS = buildProducts();
 
   const ORIGINAL_SETTINGS = {
-    publicCatalogueUrl: '',
+    publicCatalogueUrl: 'https://contactleepgroup69.github.io/opre-nature-catalogue/',
     currency: 'USD',
     catalogueUpdatedDate: importFormattedDate(),
     companyName: 'OPRE NATURE',
