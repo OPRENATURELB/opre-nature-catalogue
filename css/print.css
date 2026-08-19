@@ -59,7 +59,7 @@ body.opre-print-body {
 
 /* Cover page */
 .a4-cover { display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: 24mm; }
-.a4-cover img.opre-logo { width: 62mm; height: auto; margin-bottom: 10mm; background: #fff; border-radius: 3mm; padding: 4mm; }
+.a4-cover img.opre-logo { width: 62mm; height: auto; margin-bottom: 10mm; }
 .a4-cover h1 { font-family: var(--font-heading); color: var(--opre-deep-green); font-size: 30pt; margin: 0 0 6mm; }
 .a4-cover .opre-tagline-brown { font-size: 15pt; margin: 0 0 4mm; }
 .a4-cover .opre-tagline-green { font-size: 13pt; margin: 0 0 10mm; }
@@ -107,7 +107,7 @@ table.a4-table td.price-col { text-align: right; font-weight: 700; color: var(--
 
 /* Contact page */
 .a4-contact { display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: 14mm; }
-.a4-contact img.opre-logo { width: 46mm; margin-bottom: 8mm; background: #fff; border-radius: 3mm; padding: 3mm; }
+.a4-contact img.opre-logo { width: 46mm; margin-bottom: 8mm; }
 .a4-contact h2 { font-family: var(--font-heading); color: var(--opre-deep-green); font-size: 18pt; margin: 0 0 6mm; }
 .a4-contact p { font-family: var(--font-ui); font-size: 11pt; margin: 1.5mm 0; }
 .a4-contact .a4-tag { font-family: var(--font-body); color: var(--opre-mid-green); margin-top: 8mm; font-size: 12pt; }
