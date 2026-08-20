@@ -84,7 +84,7 @@
     "lebaneseName": "",
     "description": "Naturally pressed oil from our fields, bottled in retail and professional formats.",
     "format": "1.5 L",
-    "price": 16,
+    "price": 16.5,
     "currency": "USD",
     "priceBasis": "item",
     "order": 1,
@@ -92,7 +92,7 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-19"
+    "modifiedDate": "2026-08-20"
   },
   {
     "id": "olive-oil-500-ml-002-oils",
