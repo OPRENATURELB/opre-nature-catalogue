@@ -59,6 +59,7 @@ Backend Files/
     public.js                       public catalogue page logic
     admin.js                          admin dashboard logic (CRUD, filters, live preview)
     print.js                           paginates the catalogue into real A4 pages for printing
+    publish.js                          one-click "Publish to GitHub" (Contents API, no export/import needed)
   vendor/
     qrcode.js                            QR code generator (MIT, kazuhikoarase/qrcode-generator)
   tools/
@@ -155,27 +156,45 @@ changes, only a small Node script calling `page.pdf({ path, format: 'A4', printB
 
 ## 7. Deploying the public catalogue
 
-`public/index.html` (plus `css/`, `js/`, `vendor/` and `public/assets/`) is a fully static site —
-no server-side code, no database, no build step. To publish it:
+**This catalogue is already deployed.** Current live setup:
 
-1. Copy the whole `Backend Files` folder (or at minimum `public/`, `css/`, `js/`, `vendor/`) to any
-   static host: GitHub Pages, Netlify, Vercel, an S3 bucket, or plain shared hosting via FTP.
-2. Make sure the relative folder structure is preserved (`css/`, `js/`, `vendor/` must sit next to
-   `public/`, exactly as in this repo) — or adjust the `href`/`src` paths in `public/index.html` if
-   you flatten the structure.
-3. Point your domain (or a subpath like `/catalogue`) at `public/index.html`.
-4. Update `publicCatalogueUrl` in the admin Settings tab to match the live address, then re-export
-   your PDF/QR so they point at the live site rather than your local machine.
+- **Public catalogue:** https://oprenature.com (custom domain; also reachable at
+  https://oprenaturelb.github.io/opre-nature-catalogue/)
+- **Hosting:** GitHub Pages, free, serving directly from the `master` branch of
+  `github.com/OPRENATURELB/opre-nature-catalogue`
+- **DNS:** managed at Namecheap (BasicDNS) — 4 `A` records on `@` pointing at GitHub Pages'
+  IPs (185.199.108/109/110/111.153), and a `CNAME` on `www` pointing at
+  `oprenaturelb.github.io.`
 
-Because the public catalogue reads from the visitor's own browser `localStorage`, **each visitor
-only sees the data baked into `js/catalogue-data.js` unless you also publish your admin edits**.
-The simplest reliable deployment flow is:
-1. Make your edits in the admin dashboard and click **Save changes**.
-2. Click **Export JSON**.
-3. Either (a) paste the exported JSON's `products`/`categories`/`settings` back into
-   `js/catalogue-data.js` before deploying, or (b) extend `data-store.js` to `fetch()` a hosted
-   JSON file instead of relying on `localStorage` (a natural next step if you later add a small
-   backend — see the authentication note below).
+### Publishing catalogue edits (no export/import needed)
+
+Because the public catalogue reads from each visitor's own browser, **admin edits only reach
+visitors once they're published** — editing locally and clicking "Save changes" alone only updates
+your own browser. As of this build, that's a single click:
+
+1. Make your edits in the admin dashboard (**Products** / **Settings & QR** tabs).
+2. Go to **Settings & QR → Publish to GitHub**.
+3. Click **🚀 Publish to GitHub Pages**.
+
+This regenerates `js/catalogue-data.js` from your current catalogue and pushes it straight to the
+GitHub repo via the Contents API — GitHub Pages rebuilds automatically, live within ~30–60 seconds.
+No JSON file to export, send, or manually commit.
+
+**One-time setup** for the Publish button (already done on this machine, needed again only on a
+new computer or if the token is regenerated/revoked):
+1. Go to https://github.com/settings/tokens?type=beta while logged into the `OPRENATURELB` GitHub
+   account.
+2. **Generate new token** → **Only select repositories** → `opre-nature-catalogue` →
+   **Repository permissions → Contents → Read and write** → **Generate token**.
+3. Paste the token into the **Access token** field in Settings & QR → Publish to GitHub. It's
+   saved only in that browser's `localStorage`, under its own key — never bundled into JSON/CSV
+   exports.
+
+If you'd rather deploy somewhere other than GitHub Pages, the site is still a fully static
+`public/` + `css/` + `js/` + `vendor/` folder set with no server-side code — copy it to any static
+host (Netlify, Vercel, S3, plain FTP), keeping the folder structure intact, and update
+`publicCatalogueUrl` in Settings to match. In that case the Publish button (which is GitHub-specific)
+won't apply — fall back to Export JSON → manually update `catalogue-data.js` → redeploy.
 
 ## 8. Adding authentication later (if you host the admin dashboard)
 
@@ -196,10 +215,11 @@ catalogue.
 
 | Action | Where | Effect |
 |---|---|---|
-| Export JSON | Admin sidebar | Downloads the full catalogue (categories, products, settings) as a timestamped `.json` file |
+| Publish to GitHub Pages | Settings & QR tab | Pushes the current catalogue straight to the live site (see §7) — the normal way to publish an update |
+| Export JSON | Admin sidebar | Downloads the full catalogue (categories, products, settings) as a timestamped `.json` file — for backups or manual deploys |
 | Import JSON | Admin sidebar | Replaces the in-memory catalogue with the contents of a chosen `.json` file (validated first; asks for confirmation; takes effect once you click **Save changes**) |
 | Export CSV | Admin sidebar | Downloads all products as a spreadsheet-friendly `.csv` (one row per product, includes category name, price, price basis, active status, dates) |
-| Reset to original | Admin sidebar | Discards all local edits and restores the original 184-product catalogue from `catalogue-data.js`, after a confirmation warning |
+| Reset to original | Admin sidebar | Discards all local edits and restores the catalogue currently embedded in `catalogue-data.js` (i.e. the last-published version), after a confirmation warning |
 
 ## 10. Accessibility notes
 
