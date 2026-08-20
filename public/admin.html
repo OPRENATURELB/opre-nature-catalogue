@@ -108,6 +108,21 @@
         <div id="opre-settings-qr" style="margin-top:10px;"></div>
       </div>
 
+      <div class="opre-panel" style="margin-bottom:16px;">
+        <h2>Publish to GitHub</h2>
+        <p class="opre-meta">Pushes your catalogue straight to GitHub so it goes live on the public link — no JSON export/import needed. Requires a one-time setup: a GitHub personal access token scoped to <strong>only this repository</strong> ("Contents: Read and write"). Create one at <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">github.com/settings/tokens</a>, then paste it below. It's saved only in this browser.</p>
+        <div class="opre-field-grid">
+          <div class="opre-field-row"><label for="gh-owner">Repo owner (GitHub username/org)</label><input type="text" id="gh-owner" placeholder="OPRENATURELB" /></div>
+          <div class="opre-field-row"><label for="gh-repo">Repo name</label><input type="text" id="gh-repo" placeholder="opre-nature-catalogue" /></div>
+          <div class="opre-field-row"><label for="gh-branch">Branch</label><input type="text" id="gh-branch" placeholder="master" /></div>
+          <div class="opre-field-row"><label for="gh-token">Access token</label><input type="password" id="gh-token" placeholder="github_pat_…" autocomplete="off" /></div>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+          <button class="opre-btn" id="btn-publish-github" type="button">🚀 Publish to GitHub Pages</button>
+          <span class="opre-meta" id="publish-status"></span>
+        </div>
+      </div>
+
       <div class="opre-panel">
         <h2>Company &amp; contact details</h2>
         <div class="opre-field-grid">
@@ -213,6 +228,7 @@
 <script src="../js/catalogue-data.js"></script>
 <script src="../js/data-store.js"></script>
 <script src="../js/qr.js"></script>
+<script src="../js/publish.js"></script>
 <script src="../js/admin.js"></script>
 </body>
 </html>

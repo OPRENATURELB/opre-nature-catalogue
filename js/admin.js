@@ -553,6 +553,55 @@
 
   // ---------------- Settings tab ----------------
 
+  function renderPublishConfig() {
+    const cfg = window.Opre.Publish.loadPublishConfig();
+    document.getElementById('gh-owner').value = cfg.owner || '';
+    document.getElementById('gh-repo').value = cfg.repo || '';
+    document.getElementById('gh-branch').value = cfg.branch || 'master';
+    document.getElementById('gh-token').value = cfg.token || '';
+  }
+
+  function currentPublishConfig() {
+    return {
+      owner: document.getElementById('gh-owner').value.trim(),
+      repo: document.getElementById('gh-repo').value.trim(),
+      branch: document.getElementById('gh-branch').value.trim() || 'master',
+      path: 'js/catalogue-data.js',
+      token: document.getElementById('gh-token').value.trim(),
+    };
+  }
+
+  ['gh-owner', 'gh-repo', 'gh-branch', 'gh-token'].forEach((id) => {
+    document.getElementById(id).addEventListener('change', () => {
+      window.Opre.Publish.savePublishConfig(currentPublishConfig());
+    });
+  });
+
+  document.getElementById('btn-publish-github').addEventListener('click', async () => {
+    const btn = document.getElementById('btn-publish-github');
+    const statusEl = document.getElementById('publish-status');
+    const cfg = currentPublishConfig();
+    window.Opre.Publish.savePublishConfig(cfg);
+
+    // Publishing should always ship exactly what's currently saved, so the
+    // update date and local copy stay in sync with what goes live.
+    state.catalogue.settings.catalogueUpdatedDate = Store.formatUpdatedDate();
+    Store.saveCatalogue(state.catalogue);
+    clearDirty();
+
+    btn.disabled = true;
+    try {
+      await window.Opre.Publish.publishCatalogue(state.catalogue, cfg, (msg) => { statusEl.textContent = msg; });
+      statusEl.textContent = 'Published — GitHub Pages will rebuild in about 30–60 seconds.';
+      toast('Catalogue published to GitHub.');
+    } catch (err) {
+      statusEl.textContent = '';
+      toast(err.message, true);
+    } finally {
+      btn.disabled = false;
+    }
+  });
+
   function renderSettings() {
     const s = state.catalogue.settings;
     document.getElementById('opre-public-url').value = s.publicCatalogueUrl || '';
@@ -722,6 +771,7 @@
     renderProductCategorySelectOptions();
     renderProductTable();
     renderSettings();
+    renderPublishConfig();
   }
 
   renderAll();
