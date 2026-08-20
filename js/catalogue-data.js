@@ -2802,7 +2802,7 @@
 ];
 
   const ORIGINAL_SETTINGS = {
-    "publicCatalogueUrl":  "https://contactleepgroup69.github.io/opre-nature-catalogue/",
+    "publicCatalogueUrl":  "https://oprenaturelb.github.io/opre-nature-catalogue/",
     "currency":  "USD",
     "catalogueUpdatedDate":  "19 August 2026",
     "companyName":  "OPRE NATURE",
