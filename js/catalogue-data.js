@@ -92,7 +92,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-20"
+    "modifiedDate": "2026-08-20",
+    "priceUpdatedDate": "2026-08-20"
   },
   {
     "id": "olive-oil-500-ml-002-oils",
@@ -109,7 +110,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-19"
+    "modifiedDate": "2026-08-19",
+    "priceUpdatedDate": "2026-08-19"
   },
   {
     "id": "olive-oil-750-ml-003-oils",
@@ -126,7 +128,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olive-oil-8-kg-004-oils",
@@ -143,7 +146,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olive-oil-extra-virgin-16kg-005-oils",
@@ -160,7 +164,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olive-oil-extra-virgin-3l-006-oils",
@@ -177,7 +182,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olive-oil-regular-16-kg-011-oils",
@@ -194,7 +200,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olive-oil-tank-17-l-012-oils",
@@ -211,7 +218,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sunflower-700-ml-013-oils",
@@ -228,7 +236,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sunflower-oil-1-8-l-014-oils",
@@ -245,7 +254,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sunflower-oil-6-l-015-oils",
@@ -262,7 +272,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sunflower-oil-900-ml-016-oils",
@@ -279,7 +290,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sunflower-oil-9l-017-oils",
@@ -296,7 +308,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "creamy-honey-500-g-001-honey",
@@ -313,7 +326,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "honey-wax-002-honey",
@@ -330,7 +344,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "oak-honey-1-kg-003-honey",
@@ -347,7 +362,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "oak-honey-500g-005-honey",
@@ -364,7 +380,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pollen-225-g-007-honey",
@@ -381,7 +398,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pollen-450-g-008-honey",
@@ -398,7 +416,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "propolis-drop-15-g-009-honey",
@@ -415,7 +434,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "royal-jelly-010-honey",
@@ -432,7 +452,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sesame-001-tahini-zaatar",
@@ -449,7 +470,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sesame-250g-002-tahini-zaatar",
@@ -466,7 +488,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sesame-500g-003-tahini-zaatar",
@@ -483,7 +506,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sesame-nay-ma2shour-004-tahini-zaatar",
@@ -500,7 +524,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sumac-006-tahini-zaatar",
@@ -517,7 +542,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sumac-250-007-tahini-zaatar",
@@ -534,7 +560,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sumac-500-008-tahini-zaatar",
@@ -551,7 +578,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tahini-thineh-400g-piece-009-tahini-zaatar",
@@ -568,7 +596,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tahini-thineh-400g-box-010-tahini-zaatar",
@@ -585,7 +614,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tahini-thineh-800-g-011-tahini-zaatar",
@@ -602,7 +632,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tahini-thineh-extra-9-kg-012-tahini-zaatar",
@@ -619,7 +650,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tahini-thineh-extra-pail-18-kg-013-tahini-zaatar",
@@ -636,7 +668,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tahini-thineh-pail-4-kg-014-tahini-zaatar",
@@ -653,7 +686,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "zaatar-kham-016-tahini-zaatar",
@@ -670,7 +704,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "zaatar-mix-1-kg-017-tahini-zaatar",
@@ -687,7 +722,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "zaatar-mix-250-018-tahini-zaatar",
@@ -704,7 +740,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "zaatar-mix-500-019-tahini-zaatar",
@@ -721,7 +758,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-black-650-g-001-olives",
@@ -738,7 +776,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-black-pail-zero-10-kg-002-olives",
@@ -755,7 +794,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-black-sliced-650-g-003-olives",
@@ -772,7 +812,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-black-sliced-650-g-oil-004-olives",
@@ -789,7 +830,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-black-green-650-oil-005-olives",
@@ -806,7 +848,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-green-650-g-006-olives",
@@ -823,7 +866,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-grilled-salad-650-g-007-olives",
@@ -840,7 +884,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-pail-black-10-kg-008-olives",
@@ -857,7 +902,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-pail-green-10-kg-009-olives",
@@ -874,7 +920,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-pail-sliced-10-kg-010-olives",
@@ -891,7 +938,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-spanish-grilled-650-g-011-olives",
@@ -908,7 +956,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-spanish-grilled-kg-012-olives",
@@ -925,7 +974,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-stuffed-7arr-650-g-013-olives",
@@ -942,7 +992,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-stuffed-almonds-650-g-014-olives",
@@ -959,7 +1010,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-stuffed-mix-pail-kg-015-olives",
@@ -976,7 +1028,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olives-stuffed-walnut-650-g-016-olives",
@@ -993,7 +1046,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "olivese-black-1-kg-017-olives",
@@ -1010,7 +1064,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-19"
+    "modifiedDate": "2026-08-19",
+    "priceUpdatedDate": "2026-08-19"
   },
   {
     "id": "olivese-sliced-1-kg-018-olives",
@@ -1027,7 +1082,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-19"
+    "modifiedDate": "2026-08-19",
+    "priceUpdatedDate": "2026-08-19"
   },
   {
     "id": "zeitoun-green-pail-zero-10kg-019-olives",
@@ -1044,7 +1100,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "7arr-gazal-5-kg-001-pickles",
@@ -1061,7 +1118,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "7arr-gazal-7-kg-002-pickles",
@@ -1078,7 +1136,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "7arr-pail-rafi3-5-kg-003-pickles",
@@ -1095,7 +1154,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "cornichon-620g-004-pickles",
@@ -1112,7 +1172,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "cornichons-pail-10-kg-005-pickles",
@@ -1129,7 +1190,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "left-7abb-pail-10-kg-006-pickles",
@@ -1146,7 +1208,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "left-mcharra7-pail-10-kg-007-pickles",
@@ -1163,7 +1226,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "makdous-560g-008-pickles",
@@ -1180,7 +1244,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "makdouss-pail-10-kg-walnut-010-pickles",
@@ -1197,7 +1262,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "me2tti-mchara7-pail-10-kg-011-pickles",
@@ -1214,7 +1280,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-7ar-gazal-500g-012-pickles",
@@ -1231,7 +1298,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-khiar-mchara7-pail-10-kg-014-pickles",
@@ -1248,7 +1316,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-khiar-zahra-pail-10-kg-015-pickles",
@@ -1265,7 +1334,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-khiar-zikzak-pail-10-kg-016-pickles",
@@ -1282,7 +1352,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-mchakal-90g-017-pickles",
@@ -1299,7 +1370,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-mchakal-pail-10-kg-018-pickles",
@@ -1316,7 +1388,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-mchakkal-620-g-019-pickles",
@@ -1333,7 +1406,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-me2tti-620-g-021-pickles",
@@ -1350,7 +1424,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-me2tti-zahra-pail-10-k-022-pickles",
@@ -1367,7 +1442,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pickles-ziczac-pail-10-kg-023-pickles",
@@ -1384,7 +1460,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "warak-3arish-550-g-024-pickles",
@@ -1401,7 +1478,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "warak-enab-pail-10-kg-026-pickles",
@@ -1418,7 +1496,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "debs-kharroub-carob-molasses-1-kg-001-molasses-vinegars",
@@ -1435,7 +1514,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "debs-kharroub-carob-molasses-500-g-002-molasses-vinegars",
@@ -1452,7 +1532,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "debs-remman-pomegranate-molasses-250ml-003-molasses-vinegars",
@@ -1469,7 +1550,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "debs-remman-pomegranate-molasses-500-ml-004-molasses-vinegars",
@@ -1486,7 +1568,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "debs-remman-pomegranate-molasses-gallon--005-molasses-vinegars",
@@ -1503,7 +1586,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "debs-tamer-date-molasses-1-kg-006-molasses-vinegars",
@@ -1520,7 +1604,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "debs-tamer-date-molasses-500g-007-molasses-vinegars",
@@ -1537,7 +1622,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "hamod-el-hosrom-verjuice-250-ml-008-molasses-vinegars",
@@ -1554,7 +1640,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "hamod-el-hosrom-verjuice-500-ml-009-molasses-vinegars",
@@ -1571,7 +1658,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "khal-el-assal-750-ml-010-molasses-vinegars",
@@ -1588,7 +1676,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "natural-apple-vinegar-375-ml-011-molasses-vinegars",
@@ -1605,7 +1694,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "natural-apple-vinegar-750-ml-012-molasses-vinegars",
@@ -1622,7 +1712,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "natural-apple-vinegar-kg-013-molasses-vinegars",
@@ -1639,7 +1730,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "natural-debs-remman-pomegranate-molasses-014-molasses-vinegars",
@@ -1656,7 +1748,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "white-vinegar-gallon-nice-food-5l-016-molasses-vinegars",
@@ -1673,7 +1766,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "apricot-jam-650-g-001-jams",
@@ -1690,7 +1784,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "black-mulbery-jam-650-g-002-jams",
@@ -1707,7 +1802,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "fig-jam-650-g-003-jams",
@@ -1724,7 +1820,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "mulberry-jam-650-g-004-jams",
@@ -1741,7 +1838,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "strawberry-jam-650g-005-jams",
@@ -1758,7 +1856,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "kas3in-250-ml-001-syrups-waters",
@@ -1775,7 +1874,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "kas3in-500-ml-002-syrups-waters",
@@ -1792,7 +1892,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "ma2-el-wared-rose-water-250-ml-004-syrups-waters",
@@ -1809,7 +1910,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "ma2-el-wared-rose-water-500-ml-005-syrups-waters",
@@ -1826,7 +1928,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "ma2-el-zaher-orange-blossom-water-250-ml-006-syrups-waters",
@@ -1843,7 +1946,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "ma2-el-zaher-orange-blossom-water-500-ml-007-syrups-waters",
@@ -1860,7 +1964,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sharab-boussfeir-bitter-orange-syrup-750-008-syrups-waters",
@@ -1877,7 +1982,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sharab-boussfeir-500-ml-009-syrups-waters",
@@ -1894,7 +2000,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sharab-el-tout-mulberry-syrup-500-ml-012-syrups-waters",
@@ -1911,7 +2018,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sharab-el-tout-mulberry-syrup-750-ml-013-syrups-waters",
@@ -1928,7 +2036,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sharab-el-wared-rose-syrup-500-ml-016-syrups-waters",
@@ -1945,7 +2054,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sharab-el-wared-rose-syrup-750-ml-017-syrups-waters",
@@ -1962,7 +2072,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "almond-001-dried-fruits",
@@ -1979,7 +2090,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "coconut-crushed-1-kg-002-dried-fruits",
@@ -1996,7 +2108,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "coconut-crushed-250-g-003-dried-fruits",
@@ -2013,7 +2126,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "crushed-dates-600g-005-dried-fruits",
@@ -2030,7 +2144,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "date-khodary-extra-1kg-006-dried-fruits",
@@ -2047,7 +2162,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "date-khodary-extra-500g-007-dried-fruits",
@@ -2064,7 +2180,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "date-medjoul-008-dried-fruits",
@@ -2081,7 +2198,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "dried-apricot-009-dried-fruits",
@@ -2098,7 +2216,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "dried-cranberry-010-dried-fruits",
@@ -2115,7 +2234,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "dried-fig-011-dried-fruits",
@@ -2132,7 +2252,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "dried-fruits-decorated-650g-013-dried-fruits",
@@ -2149,7 +2270,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "dried-fruits-decoreted-830g-014-dried-fruits",
@@ -2166,7 +2288,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "dried-prune-015-dried-fruits",
@@ -2183,7 +2306,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pistachio-016-dried-fruits",
@@ -2200,7 +2324,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "raisin-1kg-017-dried-fruits",
@@ -2217,7 +2342,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "raisin-250g-018-dried-fruits",
@@ -2234,7 +2360,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "walnut-019-dried-fruits",
@@ -2251,7 +2378,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "bbq-sauce-plastic-gallon-4-2-kg-001-tomato",
@@ -2268,7 +2396,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "chicken-wings-plastic-gallon-2-2-kg-002-tomato",
@@ -2285,7 +2414,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "ketchup-340-g-003-tomato",
@@ -2302,7 +2432,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "ketchup-plastic-gallon-4-2-kg-004-tomato",
@@ -2319,7 +2450,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "mayonnaise-classic-us-plastic-gallon-3-8-005-tomato",
@@ -2336,7 +2468,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "mayonnaise-heavy-us-plastic-gallon-3-8-k-006-tomato",
@@ -2353,7 +2486,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "mustard-us-plastic-gallon-4-2-kg-007-tomato",
@@ -2370,7 +2504,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pasta-sauce-2-750-kg-008-tomato",
@@ -2387,7 +2522,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pizza-sauce-fine-herbs-300-g-009-tomato",
@@ -2404,7 +2540,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pizza-sauce-fine-herbs-370-g-010-tomato",
@@ -2421,7 +2558,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pizza-sauce-green-pepper-300-g-011-tomato",
@@ -2438,7 +2576,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "pizza-sauce-green-pepper-370-g-012-tomato",
@@ -2455,7 +2594,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sweet-chilli-plastic-gallon-2-2-kg-013-tomato",
@@ -2472,7 +2612,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "sweet-sour-plastic-gallon-2-2-kg-014-tomato",
@@ -2489,7 +2630,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tomato-paste-1300-g-016-tomato",
@@ -2506,7 +2648,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tomato-paste-300g-017-tomato",
@@ -2523,7 +2666,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tomato-paste-650-g-018-tomato",
@@ -2540,7 +2684,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "tomato-paste-opre-660-g-019-tomato",
@@ -2557,7 +2702,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "liquor-apple-250-ml-001-liqueurs",
@@ -2574,7 +2720,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "liquor-apple-500-ml-002-liqueurs",
@@ -2591,7 +2738,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "liquor-cherry-250-ml-003-liqueurs",
@@ -2608,7 +2756,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "liquor-cherry-500-ml-004-liqueurs",
@@ -2625,7 +2774,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "liquor-myrtle-henbless-250-ml-005-liqueurs",
@@ -2642,7 +2792,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "liquor-myrtle-henbless-500-ml-006-liqueurs",
@@ -2659,7 +2810,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "coffret-large-creamy-honey-001-gift-boxes",
@@ -2676,7 +2828,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "coffret-large-pollen-002-gift-boxes",
@@ -2693,7 +2846,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "coffret-small-creamy-honey-003-gift-boxes",
@@ -2710,7 +2864,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "coffret-small-pollen-004-gift-boxes",
@@ -2727,7 +2882,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "7ar-shatta-001-other",
@@ -2744,7 +2900,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "mashrouk-400-002-other",
@@ -2761,7 +2918,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "mashrouk-800g-003-other",
@@ -2778,7 +2936,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   },
   {
     "id": "prod-msz506nq-t30cu1",
@@ -2795,7 +2954,8 @@
     "image": "",
     "notes": "",
     "createdDate": "2026-08-18",
-    "modifiedDate": "2026-08-18"
+    "modifiedDate": "2026-08-18",
+    "priceUpdatedDate": "2026-08-18"
   }
 ];
 
@@ -2812,7 +2972,8 @@
   "website": "www.oprenature.com",
   "instagram": "@oprenature",
   "aboutText": "Opré means ‘in the fields,’ a name that reflects our deep connection to the land, local agriculture and traditional Lebanese food.\n\nAt OPRE NATURE, our products are carefully prepared with passion using locally cultivated ingredients and time-honoured homemade methods. From olive oil, honey and zaatar to preserves, molasses, dried fruits and traditional specialties, every product celebrates authentic flavour and the generosity of our fields.\n\nWe are committed to offering natural, carefully crafted products that bring the warmth and authenticity of Lebanese homemade food to every table.\n\nAll OPRE NATURE products are gluten-free.",
-  "pricingNotice": "All prices are in USD and include VAT. Prices are subject to change; please contact us for the latest update. Prices marked “/ kg” or “/ ml” are unit prices for the indicated professional format."
+  "pricingNotice": "All prices are in USD and include VAT. Prices are subject to change; please contact us for the latest update. Prices marked “/ kg” or “/ ml” are unit prices for the indicated professional format.",
+  "mapUrl": "https://maps.app.goo.gl/xLwvCtg3ZWQd5Ekt8"
 };
 
   const ORIGINAL_CATALOGUE = {

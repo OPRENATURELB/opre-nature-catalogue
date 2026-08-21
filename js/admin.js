@@ -300,7 +300,6 @@
     tr.appendChild(tdActive);
 
     tr.appendChild(textCell(p, 'name', 'opre-col-name'));
-    tr.appendChild(textCell(p, 'lebaneseName'));
     tr.appendChild(textCell(p, 'format'));
 
     // Price
@@ -314,11 +313,23 @@
     priceInput.setAttribute('aria-label', `${p.name} price`);
     priceInput.addEventListener('change', () => {
       const v = parseFloat(priceInput.value);
-      if (!isNaN(v) && v >= 0) { p.price = v; p.modifiedDate = Store.todayISO(); markDirty(); }
-      else priceInput.value = p.price;
+      if (!isNaN(v) && v >= 0) {
+        if (v !== p.price) { p.priceUpdatedDate = Store.todayISO(); priceDateSpan.textContent = p.priceUpdatedDate; }
+        p.price = v;
+        p.modifiedDate = Store.todayISO();
+        markDirty();
+      } else priceInput.value = p.price;
     });
     tdPrice.appendChild(priceInput);
     tr.appendChild(tdPrice);
+
+    // Price updated date (read-only, auto-tracked)
+    const tdPriceDate = document.createElement('td');
+    const priceDateSpan = document.createElement('span');
+    priceDateSpan.className = 'opre-meta';
+    priceDateSpan.textContent = p.priceUpdatedDate || p.modifiedDate || p.createdDate || '';
+    tdPriceDate.appendChild(priceDateSpan);
+    tr.appendChild(tdPriceDate);
 
     // Basis
     const tdBasis = document.createElement('td');
@@ -458,6 +469,7 @@
       order: maxOrder + 1,
       createdDate: Store.todayISO(),
       modifiedDate: Store.todayISO(),
+      priceUpdatedDate: Store.todayISO(),
     });
     state.catalogue.products.push(copy);
     markDirty();
@@ -512,6 +524,7 @@
 
     if (state.editingProductId) {
       const p = state.catalogue.products.find((x) => x.id === state.editingProductId);
+      if (price !== p.price) p.priceUpdatedDate = Store.todayISO();
       p.name = name;
       p.lebaneseName = document.getElementById('p-lebaneseName').value.trim();
       p.format = document.getElementById('p-format').value.trim();
@@ -543,6 +556,7 @@
         notes: document.getElementById('p-notes').value.trim(),
         createdDate: Store.todayISO(),
         modifiedDate: Store.todayISO(),
+        priceUpdatedDate: Store.todayISO(),
       });
     }
     document.getElementById('dlg-product').close();
@@ -608,6 +622,7 @@
     document.getElementById('s-companyName').value = s.companyName || '';
     document.getElementById('s-tagline').value = s.tagline || '';
     document.getElementById('s-address').value = s.address || '';
+    document.getElementById('s-mapUrl').value = s.mapUrl || '';
     document.getElementById('s-phone').value = s.phone || '';
     document.getElementById('s-email').value = s.email || '';
     document.getElementById('s-website').value = s.website || '';
@@ -643,6 +658,7 @@
     ['s-companyName', 'companyName'],
     ['s-tagline', 'tagline'],
     ['s-address', 'address'],
+    ['s-mapUrl', 'mapUrl'],
     ['s-phone', 'phone'],
     ['s-email', 'email'],
     ['s-website', 'website'],

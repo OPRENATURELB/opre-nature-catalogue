@@ -156,7 +156,7 @@
     const contact = el('div', { class: 'a4-contact' }, [
       el('img', { class: 'opre-logo', src: 'assets/opre-logo.png', alt: `${settings.companyName} logo` }),
       el('h2', { text: 'Orders & Enquiries' }),
-      el('p', { text: settings.address }),
+      el('p', {}, [el('a', { href: settings.mapUrl || '#', target: '_blank', rel: 'noopener', text: settings.address })]),
       el('p', { text: `Tel / WhatsApp: ${settings.phone}` }),
       el('p', { text: settings.email }),
       el('p', { text: settings.website }),

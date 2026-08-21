@@ -139,7 +139,9 @@
   });
 
   // ---------- Footer / contact / WhatsApp / QR ----------
-  document.getElementById('opre-contact-address').textContent = settings.address;
+  const addressLink = document.getElementById('opre-contact-address');
+  addressLink.href = settings.mapUrl || '#';
+  addressLink.textContent = settings.address;
   document.getElementById('opre-contact-phone').textContent = `Tel / WhatsApp: ${settings.phone}`;
   const emailLink = document.getElementById('opre-contact-email');
   emailLink.href = `mailto:${settings.email}`;

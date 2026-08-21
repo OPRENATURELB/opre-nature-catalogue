@@ -157,7 +157,8 @@
 
   const CSV_COLUMNS = [
     'id', 'category', 'name', 'lebaneseName', 'description', 'format',
-    'price', 'currency', 'priceBasis', 'order', 'active', 'notes', 'createdDate', 'modifiedDate',
+    'price', 'currency', 'priceBasis', 'order', 'active', 'notes',
+    'createdDate', 'modifiedDate', 'priceUpdatedDate',
   ];
 
   function csvEscape(value) {
@@ -176,7 +177,8 @@
       .forEach((p) => {
         const row = [
           p.id, catName[p.categoryId] || p.categoryId, p.name, p.lebaneseName, p.description, p.format,
-          p.price, p.currency, p.priceBasis, p.order, p.active, p.notes, p.createdDate, p.modifiedDate,
+          p.price, p.currency, p.priceBasis, p.order, p.active, p.notes,
+          p.createdDate, p.modifiedDate, p.priceUpdatedDate,
         ];
         rows.push(row.map(csvEscape).join(','));
       });
